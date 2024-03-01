@@ -1,0 +1,85 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+//For this exercise, we want to use the modulus operator whose job is to give a remainder for divided operands.
+
+//The first thing we want to do is define our operand
+
+int num1 = (user-inputted whole number);
+
+//To check if even or odd, test if a modulus division gives a remainder of 0.
+
+num1 % 2 == 0 
+
+//Lastly, we can say if the number is either even or odd depending on the remainder.
+
+if num1 % 2 == 0
+{
+	Console.WriteLine($"{num1} is odd!");
+}
+
+else
+{
+	Console.WriteLine($"{num1} is even!");
+}
+
+//I'm not too familiar with C# yet, so the syntax might be incorrect, but this is the gyst.
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+//First thing we want to do is define the number of user entries.
+
+int entries = 5;
+
+//Now, we can allow a user to input 5 whole numbers.
+
+int userNum1 = (insert number here);
+int userNum2 = (insert number here);
+int userNum3 = (insert number here);
+int userNum4 = (insert number here);
+int userNum5 = (insert number here);
+
+//The average is the sum of the integers in a range divided by the number of entries. We can write that as follows:
+
+int average = (userNum1 + userNum2 + userNum3 + userNum4 + userNum5) / entries;
+
+//To find the smallest and largest of the five entered numbers, we can do a comparison using relational operators for each individual entry. I would start by choosing any of the numbers at random, then using the greater-than operator, I would compare to the other numbers.
+
+(imagine this as really cool and accurate code)
+
+//If the chosen starting number is larger than any other number in the range, stop the process and start again with the number that was smaller. Repeat this process until there are no smaller values. This is the smallest number.
+
+Store this number as "int smallNum = (userNumx)"
+
+//We can repeat this step using the lesser than operator to find the laargest of the numbers.
+
+Store the largest number as "int largeNum = (userNumx)
+
+//The last thing we have to do is print out steps b through d.
+
+Console.WriteLine("The sum of numbers is: " + userNum1 + userNum2 + userNum3 + userNum4 + userNum5);
+Console.WriteLine($"The average of the numbers is {average}.);
+Console.WriteLine($"The largest number is {largeNum}");
+Console.WriteLine($"The smallest number is {smallNum}");
+
+//And we're all done!
+
+-- END --
